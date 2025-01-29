@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    font-family: 'Cormorant', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}   
+
+body{
+    background-color: #f7eac1;
+}
+section{
+    padding: 28px 8%;
+}
+
+.btn-default{
+    background-color: #921d1d;
+    color: #3cff00;
+    padding: 10px 13px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1); 
+    transition: background-color .5s ease;
+    text-decoration: none;
+   
+}
+.btn-default:hover{
+    background-color: #3cff00;
+    color: #921d1d;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+}
+.social_media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.70rem;
+    width: 60px;
+    height: 55px;
+    border-radius: 7px 15px 7px 15px;
+    background-color: #921d1d;
+    color: #3cff00;
+    margin: 8px 0px 8px 0px;
+    text-decoration: none;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+}
+.social_media a:hover{
+    background-color: #3cff00;
+    color: #921d1d;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+}
+.btn-defaultw {
+    list-style: none;
+    text-decoration: none;
+    background-color: #921d1d;
+    color: #3cff00;         
+    border: none;
+    padding: 10px 13px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.btn-defaultw:hover{
+    background-color: #3cff00;
+    color: #921d1d;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+    text-decoration: none;
+    list-style: none;
+
+}
+#desenhos {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 2rem;}
+
+
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #a53030;
+}
+p {
+    color: #a53030;
+}
+footer .social_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #a53030;
+}
+footer .con{
+    margin-top: 10px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: #a53030;
+}
+
+
+.S{
+    display: flex;  
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #a53030;
+   
+}
+strong{
+    color: #a53030;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.Desenhos p{
+    display: flex;  
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #a53030;
+}
+.Seobre_mim p{
+    display: flex;  
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: #a53030;
+}
+
+.comentarios_clientes {
+    padding: 20px;
+    background-color: #a53030;
+    border-top: none;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#form-comentario {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#form-comentario label {
+    margin-top: 10px;
+    color: #f7eac1;
+    font-size: 1.3rem;
+}
+
+#form-comentario input,
+#form-comentario select,
+#form-comentario textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 25px;
+}
+
+#form-comentario button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a53030;
+    color: #3cff00;
+    border: 1px solid #f7eac1;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color .7s ease;
+}
+
+#form-comentario button:hover {
+    background-color: #3cff00;
+    color: #a53030;
+    transition: background-color .7s ease;
+}
+
+#lista-comentarios {
+    margin-top: 20px;
+    
+}
+
+.comentario {
+    background-color: #f7eac1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.comentario h4 {
+    margin: 0;
+    color: #b14242;
+    font-size: 1.5rem;
+}
+
+.comentario p {
+    margin: 5px 0 0;
+    color: #ff0000;
+    font-size: 1.2rem;
+}
+
+

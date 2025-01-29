@@ -1,0 +1,12 @@
+
+.Desenhos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    color: #921d1d;
+    font-size: 2rem;
+}
+

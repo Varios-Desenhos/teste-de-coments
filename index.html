@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varios Desenhos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/desenhos.css">
+    <link rel="stylesheet" href="style/iimg.css">
+    <link rel="stylesheet" href="style/coment.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <img src="src/img/KLAUS.png" alt="Logo do KLAUS" id="logo">
+            </div>         
+            <ul ID="nav_list">
+                <li class="nav-item active">
+                    <a href="#Início">Início</a></li>
+                <li class="nav-item">
+                    <a href="#Desenhos">Desenhos</a></li>
+                <li class="nav-item">
+                    <a href="#Sobre_mim">Sobre mim</a></li>
+            </ul>
+            <div id="Whats_button">
+                <a href="https://wa.me/5571981594913" id="whatsapp" class="btn-default">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Whatsapp
+                </a>
+            </div>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>   
+
+
+        </nav>            
+        <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                <li class="mobile_nav_item">
+                    <a href="#Início">Início</a></li>
+                <li class="mobile_nav_item">
+                    <a href="#Desenhos">Desenhos</a></li>
+                <li class="mobile_nav_item">
+                    <a href="#Sobre_mim">Sobre mim</a></li>
+            </ul>
+            
+            <div id="Whats_button"></div>
+                <a href="https://wa.me/5571981594913" id="whatsapp" class="btn-default">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Whatsapp
+                </a>
+        </div>
+    </header>
+     
+    <main>
+        <section id="Início">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">O DESENHO QUE REPRESENTA A SUA <span>PERSONALIDADE</span></h1>
+
+                <p class="descrição">Encomende o desenho que representa a sua personalidade, pode ser no quadro, no papel, no tecido ou até mesmo digital.</p>
+            </div>
+            <div id="Whats_button">
+                <a href="https://wa.me/5571981594913" id="whatsapp" class="btn-defaultw">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Whatsapp
+                </a>
+            </div>
+            <div class="social_media">
+                <a href="https://www.instagram.com/_variosdesenhos?igsh=aDc2M2YwNjR1OWh5">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+        <section id="Desenhos">
+            <h3 class="Desenhos">Desenhos</h3> 
+            <div class="Desenhos">
+                <img class="sua" src="src/img/download.png" alt="Banner">
+                <img src="src/img/IXA.jpg" class="IXA" alt="IXA">
+                <img src="src/img/gg.jpg" class="gg" alt="gg" >
+                <img src="src/img/caps4.jpg" class="caps4" alt="caps4" >
+                <img src="src/img/caric.jpg" class="caric" alt="caric" >
+                <img src="src/img/elf.jpg" class="elf" alt="elf" >
+                <img src="src/img/floras.jpg" class="floras" alt="floras" >
+                <img src="src/img/girasois.jpg" class="girasois" alt="girasois" >
+                <img src="src/img/groog.jpg" class="groog" alt="groog" >
+                <img src="src/img/imgg.jpg" class="imgg" alt="imgg" >
+            </div>
+        </section>
+        <section id="Sobre_mim">
+            <div class="container">
+                <h1><strong>Sobre mim</strong></h1>
+                <img src="./src/img/MARI.jpg" class="MARI" alt="eu">
+                
+                <p>Olá, sou a Mariana, uma artista que se dedica a criar desenhos personalizados para pessoas que querem expressar sua personalidade de forma única e criativa. Com uma paixão pela arte e uma visão inovadora, eu transformo ideias em realidade através de desenhos que refletem a personalidade e a essência de cada cliente.
+
+                    Minha jornada na arte começou com um simples desenho na escola, mas hoje sou um artista profissional com uma ampla gama de trabalhos que variam desde retratos até ilustrações coloridas. Cada desenho é uma expressão única da minha visão e da minha paixão pela arte.
+                    
+                    Se você está procurando um desenho que capture a essência de quem você é, ou se você quer algo personalizado e único, estou aqui para ajudar. Vamos trabalhar juntos para criar algo que realmente represente você e sua personalidade de forma única e criativa.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="comentarios_clientes">
+            <h2>Deixe seu comentário</h2>
+            <form id="form-comentario">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="tipo">Você:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="encomendou">Já encomendei uma arte</option>
+                    <option value="admirador">Sou admirador</option>
+                </select>
+        
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" name="comentario" rows="4" required></textarea>
+        
+                <button type="submit">Enviar Comentário</button>
+            </form>
+        
+            <div id="lista-comentarios">
+                <!-- Aqui os comentários serão exibidos -->
+            </div>
+        </section>
+        <div class="con">
+            <p>Todos os direitos reservados &copy; 2025 Varios Desenhos</p></div>
+        <div class="social_media">
+                <a href="https://www.instagram.com/_variosdesenhos?igsh=aDc2M2YwNjR1OWh5">
+                <i class="fa-brands fa-instagram"></i>
+        </a>
+        <img src="src/img/wave.svg" class="wave" alt="wave">
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+.IXA{
+    width: 20rem;
+    height: 28rem;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    display: flex;
+    justify-content: center;
+
+}
+.IXA:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.gg{
+    width: 20rem;
+    height: 24rem;
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+}
+.gg:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}.sua{
+    width: 20rem;
+    height: 40rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.sua:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.caps4{
+    width: 22rem;
+    height: 24rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center; 
+}
+.caps4:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px
+}
+.caric{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.caric:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.elf{
+    width: 20rem;
+    height: 30rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.elf:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.floras{
+    width: 20rem;
+    height: 33rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.floras:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px
+}
+.girasois{
+    width: 20rem;
+    height: 30rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.girasois:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.groog{
+    width: 20rem;
+    height: 30rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.groog:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.imgg{
+    width: 20rem;
+    height: 30rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+}
+.imgg:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;}
+
+
+.MARI{
+    width: 22rem;
+    height: 39rem;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    transition: transform .5s ease;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -2.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+       
+ }
+.MARI:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+    transition: transform .5s ease;
+    cursor: pointer;
+    border-radius: 18px;}
+
+#logo{
+    width: 4rem;     
+    height: 4rem;
+    }

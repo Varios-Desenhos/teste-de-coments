@@ -1,0 +1,53 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 69px);
+    align-items: center;
+    justify-content: center;
+}
+#cta{
+    width: 70%;
+    display: ruby;
+    gap: 18px;
+}
+#cta .title{
+    font-size: 2rem;
+    color: #ff0000;
+}
+#cta .title span{
+    color: #c20000;
+    font-weight: 700;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;    
+}
+#cta .descrição {
+    font-size: 1.2rem;
+    color: #ff0000;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    font-style: italic;
+    display: flex;
+    text-align: justify;
+    justify-content: end;
+    align-items: end;  
+}
+#Whats_button .btn-defaultw {
+    display: ruby-text;
+    gap: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 9px;   
+}
+#Whats_button .btn-defaultw a :hover{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color .5s ease;
+}
